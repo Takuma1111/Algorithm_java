@@ -34,9 +34,7 @@ public class BinarySearchTree {
 	//配列に存在しない値を渡されたらfalseを返す
 	public boolean isA(int value) {
 		for(int i = 0; i < a.length; i++) {
-			if(a[i] == value) {
-				return true;
-			}
+			if(a[i] == value) { return true; }
 		}
 		return false;
 	}
